@@ -1,12 +1,9 @@
-import { useState } from 'react';
-import ApiInformation from './components/apiInformation';
+import UniversityComponent from './components/UniversityComponent';
 
 function App() {
-	const [count, setCount] = useState(0);
-
 	return (
 		<>
-			<ApiInformation />
+			<UniversityComponent />
 		</>
 	);
 }

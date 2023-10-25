@@ -1,0 +1,32 @@
+.study-card {
+	border: 1px solid #ccc;
+	padding: 20px;
+	width: 600px;
+	font-family: Arial, sans-serif;
+}
+
+.study-details {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.detail {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
+.study-description {
+	margin-top: 20px;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
+p {
+	margin: 10px 0;
+}
